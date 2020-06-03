@@ -1,6 +1,6 @@
 {
-  "name": "tailwind-css-playground",
-  "description": "Tailwind example starter project",
+  "name": "starting-block-test",
+  "description": "",
   "scripts": {
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -c ./tailwind.config.js -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
@@ -18,5 +18,6 @@
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
     "postcss-cli": "^6.1.2"
-  }
+  },
+  "keywords": []
 }
