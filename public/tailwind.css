@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hds-title__large {
+  @apply text-4xl;
+}
+
+@screen md {
+  .hds-title__large {
+    @apply text-5xl;
+  }
+}
+
+.hds-input {
+  @apply bg-white py-4 px-6 border;
+}
+
+.hds-btn {
+  @apply py-4 px-10 rounded;
+}
+
+.hds-btn__primary {
+  @apply bg-secondary text-white;
+}
+
+.hds-btn__primary:hover {
+  @apply bg-secondary-dark;
+}
+
+.hds-btn__secondary {
+  @apply bg-primary text-white;
+}
+
+.hds-btn__secondary:hover {
+  @apply bg-primary-dark;
+}
