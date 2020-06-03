@@ -5,10 +5,28 @@
 .hds-title__large {
   @apply text-4xl;
 }
+.hds-title__medium {
+  @apply text-3xl;
+}
+.hds-title__small {
+  @apply text-base;
+}
+.hds-title__xsmall {
+  @apply text-sm;
+}
+
+.hds-container__large {
+}
 
 @screen md {
   .hds-title__large {
     @apply text-5xl;
+  }
+  .hds-title__medium {
+    @apply text-4xl;
+  }
+  .hds-title__small {
+    @apply text-lg;
   }
 }
 
